@@ -2,31 +2,31 @@
     "ST001":{
         "name:":"Nisarg",
         "place":"Hyderabad",
-        "age":"23",
+        "age":23,
         "problem_solved":81
     },
     "ST002":{
         "name:":"Ravi",
         "place":"Bangalore",
-        "age":"29",
+        "age":29,
         "problem_solved":91
     },
     "ST003":{
         "name:":"Saksham",
         "place":"Delhi",
-        "age":"25",
+        "age":25,
         "problem_solved":85
     },
     "ST004":{
         "name:":"Hemant",
         "place":"Kolkata",
-        "age":"20",
+        "age":20,
         "problem_solved":87
     },
     "ST005":{
         "name:":"Sandeep",
         "place":"Chennai",
-        "age":"231",
+        "age":231,
         "problem_solved":92
     }
 }
