@@ -70,7 +70,8 @@ def sort_student_list(sort_id:str = Query(...,description="Provide the sort id b
     
 
     student_data = load_all_students()
-    sorted_student_list = sorted(student_data.values(),key = lambda k: k.get(sort_id,0),reverse=revere_order)
+    #sorted_student_list = sorted(student_data.values(),key = lambda k: k.get(sort_id,0),reverse=revere_order)
+    sorted_student_list = sorted(student_data.values(),key = lambda k: k.get(sort_id,0), reverse=revere_order)
     return sorted_student_list
 
 # Example of dependency injection from fastapi.
